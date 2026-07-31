@@ -1,0 +1,13 @@
+{
+    "session_id": "152d121e-2e5f-445f-88e6-e644e5829f2d",
+    "start_time": "2026-07-30T16:21:32.484438+00:00",
+    "heartbeat": "2026-07-31T00:33:51.370291+00:00",
+    "status": "final_outputs_committed",
+    "config_hash": "f483833250e9533f86829d95aa5e6f86b4b99853bae16deff1b49e74dceeccd9",
+    "lock_schema_version": "1.0",
+    "taken_over_from_session_id": "15a525f6-b3ce-4736-a8c2-3ea9db6cae49",
+    "previous_lock_sha256": "1bc1ff84597aba31b10074960f5620c80b917ab62ae7b241710e80d6c823b6f5",
+    "previous_heartbeat": "2026-07-30T15:09:27.030972+00:00",
+    "takeover_at": "2026-07-30T16:21:32.484438+00:00",
+    "takeover_reason": "stale heartbeat after Colab runtime interruption"
+}
