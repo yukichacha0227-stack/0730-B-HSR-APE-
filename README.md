@@ -1,30 +1,7 @@
 # 0730-B-HSR-APE-
 
-最新版Notebookの回復事前監査セルは、87行目の次の行で
-SyntaxErrorになっています。
+with open(FINAL_JSON_PATH, "r", encoding="utf-8") as f:
+    q = json.load(f)
 
-from manifestデータ取得
-
-これはPythonコードではなく説明文です。
-
-次のようにコメントへ修正してください。
-
-# manifestデータ取得
-
-または、その行自体を削除してください。
-
-それ以外の回復事前監査セルのコードは変更しないでください。
-前のbatch_00021本番処理セルは再実行しないでください。
-ステージング、temp_q.json、Parquetも削除・変更しないでください。
-
-修正後、回復事前監査セルだけを先頭から実行してください。
-
-SyntaxErrorはセルの構文解析時に発生したため、前回はheartbeat更新を含め、
-セル内処理が一つも実行されていません。
-
-実行時にメモリ上の必須変数が失われていると判定された場合は、
-Drive上のsession_idを変数へ代入して処理を続けず、そのエラーを
-そのまま表示して停止してください。
-
-実行結果を私が返すまで、正式公開、commitマーカー作成、
-resume_state更新、他バッチ処理には進まないでください。
+print("HSR生データ内 Remark 2:", q["raw_remark_2_rows"])
+print("最終採用 Remark 2:", q["accepted_remark_2_rows"])
