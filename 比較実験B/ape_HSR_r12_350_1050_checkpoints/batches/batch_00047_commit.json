@@ -1,0 +1,13 @@
+{
+    "commit_schema_version": "1.0",
+    "batch_id": "batch_00047",
+    "config_hash": "f483833250e9533f86829d95aa5e6f86b4b99853bae16deff1b49e74dceeccd9",
+    "session_id": "152d121e-2e5f-445f-88e6-e644e5829f2d",
+    "committed_at": "2026-07-30T23:35:06.382443+00:00",
+    "parquet_filename": "batch_00047.parquet",
+    "parquet_sha256": "e681219a61703555195016bf061bc9fe8561cd47e7a2996d5722a68472f0b71d",
+    "quality_filename": "batch_00047_quality.json",
+    "quality_sha256": "982c67ac578b4847ff32d51c0f4b8fcee542734c82376f2a2c81615911da3846",
+    "accepted_rows": 1338,
+    "input_file_count": 25
+}
